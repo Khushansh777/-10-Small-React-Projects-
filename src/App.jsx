@@ -2,6 +2,7 @@ import Calculator from "./components/Calculator";
 import Counter from "./components/Counter";
 import Hiddentinput from "./components/Hiddentinput";
 import Meals from "./components/Meals";
+import Testinomials from "./components/testinomials";
 import Todo from "./components/Todo";
 import { ToggleBackgroundProvider } from "./components/ToggleBackgroundContext";
 import ToggleBakground from "./components/ToggleBakground";
@@ -17,6 +18,7 @@ function App() {
         <ToggleBakground />
       </ToggleBackgroundProvider>
       <Hiddentinput />
+      <Testinomials />
     </div>
   );
 }
