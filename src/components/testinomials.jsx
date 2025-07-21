@@ -29,7 +29,7 @@ const Testinomials = () => {
   return (
     <div style={{ maxWidth: 600, margin: "2rem auto", padding: "1rem" }}>
       <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>
-        Testimonials
+        Testimonials    
       </h2>
       <button onClick={handlePrev}>Previous</button>{" "}
       <button onClick={handleNext}>Next</button>

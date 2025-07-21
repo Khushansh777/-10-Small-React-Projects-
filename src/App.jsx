@@ -1,5 +1,6 @@
 import Calculator from "./components/Calculator";
 import Counter from "./components/Counter";
+import FormValidation from "./components/FormValidation";
 import Hiddentinput from "./components/Hiddentinput";
 import Meals from "./components/Meals";
 import Testinomials from "./components/testinomials";
@@ -10,15 +11,16 @@ import ToggleBakground from "./components/ToggleBakground";
 function App() {
   return (
     <div>
-      <Counter />
-      <Todo />
+      {/* <Counter />
+      <Todo /> */}
       {/* <Meals /> */}
-      <Calculator />
+      {/* <Calculator />
       <ToggleBackgroundProvider>
         <ToggleBakground />
       </ToggleBackgroundProvider>
       <Hiddentinput />
-      <Testinomials />
+      <Testinomials /> */}
+      <FormValidation />
     </div>
   );
 }
